@@ -3,23 +3,22 @@
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "mwarner's blog"
+  tagline: "Caffeine and Coding"
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: What is my rank
+      link: /valorant-rank-api
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: About me
+      link: /about-me
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: How I host my site for under $1 per month
+    details: Cloudfront, S3, and Route53
+    link: /cloudfront-s3-hosting
+  - title: Creating a Valorant Ranked API
+    details: Quickly get your Valorant rank
+    link: /valorant-rank-api
 ---
 

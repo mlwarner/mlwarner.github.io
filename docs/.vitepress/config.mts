@@ -2,27 +2,25 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "My Awesome Project",
-  description: "A VitePress Site",
-  themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
-    ],
-
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
-  }
+    title: "mwarner's blog",
+    description: "A blog about caffeine and coding",
+    themeConfig: {
+        // https://vitepress.dev/reference/default-theme-config
+        nav: [
+            { text: 'Home', link: '/' },
+            { text: 'About me', link: '/about-me' }
+        ],
+        editLink: {
+            pattern: 'https://github.com/mlwarner/mlwarner.github.io/edit/main/docs/:path'
+        },
+        socialLinks: [
+            { icon: 'github', link: 'https://github.com/mlwarner' }
+        ],
+        outline: 'deep',
+    },
+    vite: {
+        server: {
+            host: true,
+        },
+    },
 })
