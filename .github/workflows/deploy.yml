@@ -1,6 +1,6 @@
-# Sample workflow for building and deploying a VitePress site to GitHub Pages
+# Sample workflow for building and deploying a Docusaurus site to GitHub Pages
 #
-name: Deploy VitePress site to Pages
+name: Deploy Docusaurus site to Pages
 
 on:
   # Runs on pushes targeting the `main` branch. Change this to `master` if you're
@@ -43,12 +43,12 @@ jobs:
         uses: actions/configure-pages@v4
       - name: Install dependencies
         run: npm ci # or pnpm install / yarn install / bun install
-      - name: Build with VitePress
-        run: npm run docs:build # or pnpm docs:build / yarn docs:build / bun run docs:build
+      - name: Build with Docusaurus
+        run: npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: docs/.vitepress/dist
+          path: build
 
   # Deployment job
   deploy:

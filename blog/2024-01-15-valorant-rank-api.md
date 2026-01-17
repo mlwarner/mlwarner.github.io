@@ -1,8 +1,15 @@
-# Valorant rank api
+---
+slug: valorant-rank-api
+title: Valorant rank api
+authors: [mlwarner]
+tags: [api, valorant, aws, lambda]
+---
 
 I want to expand my hello-world api with some new functionality as the basis for
 a future discord bot. A good starting point could be retrieving my own rank
 using Riot's API. Let's get started.
+
+<!--truncate-->
 
 ## The plan
 
@@ -66,4 +73,3 @@ useful for my implementation:
 - The endpoint used for Americas is `https://americas.api.riotgames.com`
 - The `X-Riot-Token` is the header which carries my API key
 - The response contains the needed `puuid` to make follow up requests
-
