@@ -111,8 +111,8 @@ Clear Docusaurus cache and generated files.
 - **Core Dependencies**:
   - @docusaurus/core: ^3.9.2
   - @docusaurus/preset-classic: ^3.9.2
-  - react: ^18.3.1
-  - react-dom: ^18.3.1
+  - react: ^19.2.3
+  - react-dom: ^19.2.3
 - **Styling**: clsx, prism-react-renderer
 - **Markdown**: @mdx-js/react
 - **Dependency Management**: Dependabot configured for weekly npm updates
