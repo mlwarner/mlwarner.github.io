@@ -4,16 +4,7 @@ title: Valorant Rank API
 
 # Valorant Rank API
 
-<div class="meta">January 15, 2024 · M Warner</div>
-
-<div class="tags">
-  <span class="tag">api</span>
-  <span class="tag">valorant</span>
-  <span class="tag">aws</span>
-  <span class="tag">lambda</span>
-</div>
-
----
+*January 15, 2024*
 
 I want to expand my hello-world api with some new functionality as the basis for
 a future discord bot. A good starting point could be retrieving my own rank

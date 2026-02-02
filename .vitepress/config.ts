@@ -4,7 +4,7 @@ export default defineConfig({
   title: "mwarner's blog",
   description: "Caffeine and Coding",
 
-  srcExclude: ['**/README.md', '**/CLAUDE.md'],
+  srcDir: 'docs',
 
   themeConfig: {
     nav: [
@@ -22,7 +22,7 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: 'https://github.com/mlwarner/mlwarner.github.io/edit/main/:path',
+      pattern: 'https://github.com/mlwarner/mlwarner.github.io/edit/main/docs/:path',
       text: 'Edit this page on GitHub'
     }
   }

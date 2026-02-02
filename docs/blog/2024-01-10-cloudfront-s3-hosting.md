@@ -4,17 +4,7 @@ title: How I host my website for under a dollar per month
 
 # How I host my website for under a dollar per month
 
-<div class="meta">January 10, 2024 · M Warner</div>
-
-<div class="tags">
-  <span class="tag">aws</span>
-  <span class="tag">cloudfront</span>
-  <span class="tag">s3</span>
-  <span class="tag">cdk</span>
-  <span class="tag">hosting</span>
-</div>
-
----
+*January 10, 2024*
 
 AWS offers generous free tiers for personal or low traffic usage as a preview
 for some of its technologies. Using `cdk` I configure all of my infrastructure

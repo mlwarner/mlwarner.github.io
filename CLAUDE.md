@@ -11,23 +11,16 @@ This is a personal blog/portfolio site built with VitePress and deployed to GitH
 ### VitePress Static Site Generator
 
 - **Framework**: VitePress 1.x (Vue-based static site generator)
+- **Source Directory**: `docs/` (configured via `srcDir` in config)
 - **Content Locations**:
-  - Blog posts: `blog/` directory (format: `YYYY-MM-DD-slug.md`)
-  - Homepage: `index.md` (uses VitePress home layout)
-  - About page: `about.md`
+  - Blog posts: `docs/blog/` directory (format: `YYYY-MM-DD-slug.md`)
+  - Homepage: `docs/index.md` (uses VitePress home layout)
+  - About page: `docs/about.md`
 - **Configuration**: `.vitepress/config.ts` contains site configuration including:
   - Site metadata (title, description)
   - Navigation menu structure (nav items)
   - Theme settings (footer, social links)
   - Edit link configuration for GitHub
-
-### Theme Customization
-
-- **Custom Theme**: `.vitepress/theme/index.ts` extends the default VitePress theme
-- **Custom Styles**: `.vitepress/theme/custom.css` contains:
-  - Brand color overrides (green/teal theme)
-  - Blog post styling classes
-  - Dark mode support
 
 ### Build Output
 
@@ -69,26 +62,18 @@ Preview the production build locally.
 
 ### Adding New Blog Posts
 
-1. Create a new `.md` file in the `blog/` directory with format: `YYYY-MM-DD-slug.md`
+1. Create a new `.md` file in the `docs/blog/` directory with format: `YYYY-MM-DD-slug.md`
 2. Add frontmatter with title:
    ```yaml
    ---
    title: My Post Title
    ---
    ```
-3. Add meta info and tags using HTML in the post body:
-   ```html
-   <div class="meta">January 10, 2024 · M Warner</div>
-   <div class="tags">
-     <span class="tag">tag1</span>
-     <span class="tag">tag2</span>
-   </div>
-   ```
-4. Update `blog/index.md` to include the new post in the listing
+3. Update `docs/blog/index.md` to include the new post in the listing
 
 ### Adding Custom Pages
 
-1. Create a new `.md` file in the root directory
+1. Create a new `.md` file in the `docs/` directory
 2. Add frontmatter with title:
    ```yaml
    ---
