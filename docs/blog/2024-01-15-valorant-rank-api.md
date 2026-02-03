@@ -1,15 +1,14 @@
 ---
-slug: valorant-rank-api
-title: Valorant rank api
-authors: [mlwarner]
-tags: [api, valorant, aws, lambda]
+title: Valorant Rank API
 ---
+
+# Valorant Rank API
+
+*January 15, 2024*
 
 I want to expand my hello-world api with some new functionality as the basis for
 a future discord bot. A good starting point could be retrieving my own rank
 using Riot's API. Let's get started.
-
-<!--truncate-->
 
 ## The plan
 
